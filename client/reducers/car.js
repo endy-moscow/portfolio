@@ -26,7 +26,7 @@ export default function () {
     },
     {
       id: 4,
-      name: "Lada",
+      name: "Lad",
       speed: 253.13,
       weight: 1.5,
       desc: "Мерс — класс",
