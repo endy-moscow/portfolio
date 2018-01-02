@@ -1,10 +1,12 @@
 import {combineReducers} from 'redux';
 import CarsReducers from './car';
 import ActiveCar from './car-active';
+import Project from './project'
 
-const allReducers = combineReducers ({
+const reducers = combineReducers ({
   cars: CarsReducers,
-  active: ActiveCar
+  active: ActiveCar,
+  projects: Project
 });
 
-export default allReducers;
+export default reducers;
