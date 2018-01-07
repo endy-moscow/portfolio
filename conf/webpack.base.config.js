@@ -3,9 +3,6 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default new Config().merge({
   entry: './client/index.js',
-  output: {
-    path: __dirname + '/../public',
-  },
   module: {
     loaders: [
       {

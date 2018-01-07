@@ -1,7 +1,7 @@
-export const selectCar = (car) => {
-  console.log("Car —", car.name)
+export const filter = (tag) => {
+  console.log(tag.name);
   return {
-    type: "CAR_SELECTED",
-    payload: car
+    type: 'SET_FILTER',
+    payload: tag
   }
 };

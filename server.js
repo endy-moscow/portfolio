@@ -11,22 +11,26 @@ if (isDevelopment) {
   const webpack = require('webpack');
   const webpackConfig = require('./webpack.config.babel').default;
   const compiler = webpack(webpackConfig);
-  app.use(require('webpack-dev-middleware')(compiler, {
+  const devMiddleWare = require('webpack-dev-middleware')(compiler, {
     hot: true,
+    publicPath: '/',
     stats: {
       colors: true
     }
-  }));
+  });
   app.use(require('webpack-hot-middleware')(compiler));
+  app.use('/', devMiddleWare);
+  app.use('*', devMiddleWare);
 } else {
   app.use(express.static(PUBLIC_PATH));
 }
 
-app.all("*", function(req, res) {
-  res.sendFile(path.resolve(PUBLIC_PATH, 'index.html'));
-});
+// app.all("*", function(req, res) {
+//   console.log('yo');
+//   res.sendFile(path.resolve(PUBLIC_PATH, 'index.html'));
+// });
 
 
 app.listen(PORT, function() {
-  console.log('Listening on port ' + PORT + '...');
+  console.log('🌎 Listening on port ' + PORT + '...');
 });

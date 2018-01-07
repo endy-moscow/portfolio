@@ -1,12 +1,12 @@
-import {combineReducers} from 'redux';
-import CarsReducers from './car';
-import ActiveCar from './car-active';
-import Project from './project'
+import {combineReducers} from 'redux'
+import {routerReducer} from 'react-router-redux'
+import Projects from './project'
+import Tags from './tag'
+import ActiveProject from './project-active'
 
-const reducers = combineReducers ({
-  cars: CarsReducers,
-  active: ActiveCar,
-  projects: Project
-});
-
-export default reducers;
+export default combineReducers ({
+  router: routerReducer,
+  projects: Projects,
+  tags: Tags,
+  active: ActiveProject
+})
