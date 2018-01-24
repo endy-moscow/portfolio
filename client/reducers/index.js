@@ -1,12 +1,16 @@
 import {combineReducers} from 'redux'
-import {routerReducer} from 'react-router-redux'
-import Projects from './project'
-import Tags from './tag'
-import ActiveProject from './project-active'
+import {routerReducer as router} from 'react-router-redux'
 
-export default combineReducers ({
-  router: routerReducer,
-  projects: Projects,
-  tags: Tags,
-  active: ActiveProject
+import projectsData from '../store/projects-data'
+import filtersData from '../store/filters-data'
+
+import activeFilter from './activeFilter'
+
+const reducer = combineReducers ({
+  projects: projectsData,
+  filters: filtersData,
+  activeFilter,
+  router
 })
+
+export default reducer;
