@@ -9,6 +9,5 @@ const Home = () => (
         <ListOfProjects />
     </div>
 )
-let time = Date.now().toString()
-console.log(time)
+
 export default Home;

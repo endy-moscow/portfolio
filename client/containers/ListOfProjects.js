@@ -2,15 +2,16 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import store from '../store/index'
-import reducer from '../reducers/index'
-
-
-
 
 function List(props) {
+    var list = props.projects
+    if (props.activeFilter !== 'ALL') {
+        list = list.filter((i) => i.tags.indexOf(props.activeFilter) !== -1);
+        console.log(list);
+    } 
     return (
         <ul>
-            {props.projects.map(project =>
+            {list.map(project =>
                 <li key={project.id}>{project.name}</li>
             )}
         </ul>
@@ -20,7 +21,7 @@ function List(props) {
 function mapStateToProps(state) {
     return {
         projects: state.projects,
-
+        activeFilter: state.activeFilter
     };
 }
 

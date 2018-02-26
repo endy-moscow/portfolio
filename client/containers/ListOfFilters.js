@@ -6,9 +6,8 @@ import reducer from '../reducers/index'
 import { setFilter } from '../actions/filter'
 
 function List(props) {
-    let time = Date.now().toString()
     return (
-        <section>
+        <div>
             {props.filters.map(filter =>
                 <button
                   onClick={() => {props.onSetFilter(filter.name)}}
@@ -17,7 +16,7 @@ function List(props) {
                 </button>
             )}
             <div>{props.activeFilter}</div>
-        </section>
+        </div>
     );
 }
 
