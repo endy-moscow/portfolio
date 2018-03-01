@@ -1,0 +1,30 @@
+@import "main";
+@import "menu";
+@import "header";
+@import "gallery";
+
+
+$cola-color: rgba(244,0,0,.8);
+.fade-cola{
+  background: $cola-color;
+}
+
+
+$suzuki-color: rgba(2,43,74,.8);
+.fade-suzuki{
+  background: $suzuki-color;
+}
+$geely-color: rgba(0,101,160,.8);
+$mri-color: rgba(162,0,103,.8);
+
+
+
+
+
+
+.fade-geely{
+  background: $geely-color;
+}
+.fade-mri{
+  background: $mri-color;
+}

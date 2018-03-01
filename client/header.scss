@@ -1,0 +1,21 @@
+.header-conainer{
+  background: url(./images/me.gif) fixed;
+  background-size: 1920px auto;
+  header {
+    display: grid;
+    grid-template-rows: 100px auto;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(1,1,1,0.8);
+    transition: .3s;
+    &:hover{
+      background-color: rgba(1,1,1,0.6);
+    }
+  }
+
+  h1{
+    font-size: 36px;
+    padding: 50px 33%;
+    color: white;
+  }
+}

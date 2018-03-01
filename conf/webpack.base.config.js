@@ -16,5 +16,6 @@ export default new Config().merge({
     new HtmlWebpackPlugin({
       template: './client/index.html',
       inject: "body"
-    })]
+    })
+  ]
 });

@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 
-const PORT = 7700;
+const PORT = 2400;
 const PUBLIC_PATH = __dirname + '/public';
 const app = express();
 
@@ -29,7 +29,6 @@ if (isDevelopment) {
 //   console.log('yo');
 //   res.sendFile(path.resolve(PUBLIC_PATH, 'index.html'));
 // });
-
 
 app.listen(PORT, function() {
   console.log('🌎 Listening on port ' + PORT + '...');
