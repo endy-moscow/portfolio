@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import store from '../store/index'
-import Tile from './Tile.jsx'
+import store from '../../store/index'
+import Tile from '../tile/Tile.jsx'
 
 function List (props) {
     var list = props.projects

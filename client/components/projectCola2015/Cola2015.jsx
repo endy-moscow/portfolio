@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from './Menu.jsx'
+import Menu from '../menu/Menu.jsx'
 export default class Cola2015 extends React.Component {
   render() {
     return (

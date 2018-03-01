@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Menu from './Menu.jsx'
+import Menu from './menu/Menu.jsx'
 
 export default class Page404 extends React.Component {
   render() {

@@ -1,12 +1,8 @@
-.gallery{
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  width: 100%;
-  z-index: 1;
+.tile_wrapper-cola {
+  background: url(./components/projectCola2015/cola.gif);
 }
-a.tile-wrapper {
+.tile_wrapper {
   display: grid;
-  background: url(./images/cola/cola.gif);
   background-size: 500px auto;
   height: 350px;
   text-align: center;
@@ -35,15 +31,5 @@ a.tile-wrapper {
         transform: translateY(-24px)
       }
     }
-  }
-}
-
-.footer{
-  width: 100%;
-  height: 300px;
-  background: rgba(1,1,50,1);
-  h1{
-    padding: 0;
-    margin:  0;
   }
 }

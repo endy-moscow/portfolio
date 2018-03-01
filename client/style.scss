@@ -1,7 +1,9 @@
 @import "main";
-@import "menu";
-@import "header";
-@import "gallery";
+@import "components/menu/menu";
+@import "components/header/header";
+@import "components/footer/footer";
+@import "components/gallery/gallery";
+@import "components/tile/tile";
 
 
 $cola-color: rgba(244,0,0,.8);
