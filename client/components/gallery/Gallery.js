@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import store from '../../store/index'
-import Tile from '../tile/Tile.jsx'
+import Tile from '../tile/tile.jsx'
 
 function List (props) {
     var list = props.projects

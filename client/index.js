@@ -8,8 +8,8 @@ import 'normalize.css'
 import './style.scss'
 import store from './store/index'
 import Home from './components/Home/Home.jsx'
-import Page404 from './components/404.jsx'
-import Cola2015 from './components/projectCola2015/Cola2015.jsx'
+import Page404 from './components/404Page/404.jsx'
+import Cola2015 from './components/ProjectPages/Cola2015/Cola2015.jsx'
 
 ReactDOM.render(<Provider store={store}>
   <Router>

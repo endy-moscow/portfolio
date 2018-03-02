@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from '../gallery/Gallery.js'
-import Header from '../header/header.jsx'
+import Header from '../header/headerHome.jsx'
 import Footer from '../footer/footer.jsx'
 
 export default class Home extends React.Component {
