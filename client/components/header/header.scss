@@ -1,4 +1,7 @@
-.header_container{}
+.header_container-cola2015{
+  background: url(./components/tile/cola.gif) fixed 50% 50%;
+  background-size: 1920px auto;
+}
 
 .header_container-home {
   background: url(./components/header/me.gif) fixed 100% 300%;
@@ -22,12 +25,11 @@ header {
   height: 100%;
 }
 .header_title_container {
+  width: 100%;
   padding: 0 33%;
+  text-align: center;
 }
-.header_title {
+span.header_title {
   color: white;
-  line-height: 1.4;
-  &:hover{
-    border-bottom: 1px solid white;
-  }
+  font-family: $font-main;
 }

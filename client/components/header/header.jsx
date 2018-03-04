@@ -9,9 +9,9 @@ export default class Header extends React.Component {
           <Menu />
           <div className='container'>
             <div className='header_title_container'>
-              <span className='h1 header_title'>
-                  Yo! I'am Sergey Duzenko, digital designer from Moscow. Currently my focus on the interface
-              </span>
+              <h1><span className='header_title'>
+                {this.props.title}
+              </span></h1>
             </div>
           </div>
         </header>

@@ -1,44 +1,39 @@
-.tile_wrapper-geely {
+$cola-color: rgba(244,0,0,.8);
+
+.fade-cola{
+  background: $cola-color;
 }
-.tile_wrapper-cola {
-  background: url(./components/tile/cola.gif);
-}
-.tile_title {
-  font-size: 24px;
-  color: white;
-  transition: 1s;
-}
+
 .tile_wrapper {
   display: block;
-  background-size: auto 350px;
+  width: 400px;
   height: 350px;
   text-decoration: none;
-  .fade {
-    height: 100%;
-    width: 100%;
-    &:focus{
-      background: rgba(1,1,1,0);
-    }
-    &:hover{
-      background: rgba(1,1,1,.4);
-      transition: .3s;
-    }
-    .tile_title{
-      h2 {
-        display: inline;
-        border-bottom: 1px solid transparent;
-      }
-    }
-    &:hover{
-      .tile_title{
-        opacity: 0;
-        transition: .3s .3s;
-        transform: translateY(-24px);
-        padding-bottom: 4px;
-      }
-      h2 {
-        border-bottom: 1px solid white;
-      }
-    }
+}
+// .tile_wrapper-cola {
+//   background: url(./components/tile/cola.gif) 50% 50%;
+//   background-size: 500px auto;
+// }
+.tile_title {
+  color: white;
+  font-family: $font-main;
+  font-weight: 300;
+  transition: 1s;
+  border-bottom: 1px solid transparent;
+}
+.fade{
+  h2 {
+    padding-bottom: 10%;
+  }
+}
+.fade {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  &:hover{
+    background: rgba(1,1,1,.4);
+    transition: .3s;
   }
 }
