@@ -1,14 +1,3 @@
-*{
-  line-height: 1.6;
-}
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 48px 0 0 0;
-}
-p {
-  padding: 24px 0 0 0;
-  margin: 0;
-}
 body {
   animation: body-bg 3s infinite ease-in-out;
 }
@@ -17,9 +6,6 @@ body {
   width: 100%;
   height: 100%;
   background: black;
-}
-.content_container{
-  width: 760px;
 }
 
 @keyframes body-bg {
