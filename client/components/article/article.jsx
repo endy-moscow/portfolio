@@ -11,7 +11,12 @@ export default class Article extends React.Component {
             prevEl: '.swiper-button-prev',
             nextEl: '.swiper-button-next'
           },
+          pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+          },
           grabCursor: true,
+          loop: true,
         }
     return (
       <article>
@@ -22,19 +27,11 @@ export default class Article extends React.Component {
             </p>
         </div>
         <Swiper {...params}>
-          <div className='cola2015-img1'>
-            <div className='photo-description'>Slide</div>
-          </div>
-          <div className='cola2015-img1'>
-            <div className='photo-description'>Slide</div>
-          </div>
-          <div className='cola2015-img1'>
-            <div className='photo-description'>Slide</div>
-          </div>
-          <div className='cola2015-img1'>
-            <div className='photo-description'>Slide</div>
-          </div>
+          <div className={'article-img '+ this.props.keyword +'-img1'}/>
+          <div className={'article-img '+ this.props.keyword +'-img2'}/>
+          <div className={'article-img '+ this.props.keyword +'-img3'}/>
         </Swiper>
+        <div className={'p2'}>источник: <a href='http://google.com'>google</a></div>
         <div className='content_container'>
             <h2>Title</h2>
 
