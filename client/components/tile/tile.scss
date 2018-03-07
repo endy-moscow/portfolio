@@ -1,39 +1,39 @@
-$cola-color: rgba(244,0,0,.8);
-
-.fade-cola{
-  background: $cola-color;
-}
-
 .tile_wrapper {
   display: block;
-  width: 400px;
+  width: 100%;
   height: 350px;
   text-decoration: none;
 }
-// .tile_wrapper-cola {
-//   background: url(./components/tile/cola.gif) 50% 50%;
-//   background-size: 500px auto;
-// }
+
 .tile_title {
-  color: white;
-  font-family: $font-main;
-  font-weight: 300;
-  transition: 1s;
-  border-bottom: 1px solid transparent;
 }
 .fade{
   h2 {
-    padding-bottom: 10%;
+    padding: 10%;
+    font-family: $font-main;
+    font-weight: 300;
+    color: rgba(255,255,255,1);
+    transition: .5s;
   }
 }
 .fade {
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
   width: 100%;
   &:hover{
     background: rgba(1,1,1,.4);
     transition: .3s;
+    h2 {
+      transform: scale(1.01, 1.01);
+      transition: 2s;
+      color: rgba(255,255,255,0);
+    }
   }
+}
+@keyframes tile {
+  80%{opacity:1}
+  100%{opacity:0}
 }

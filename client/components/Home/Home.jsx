@@ -7,7 +7,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className='canvas'>
-        <Header />
+        <Header
+          keyword='home'
+          title='Привет! Я Сергей Дузенко, digital-дизайнер из Москвы. Открыт для предложений'
+        />
         <Gallery />
         <Footer />
       </div>

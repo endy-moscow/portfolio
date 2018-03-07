@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400,600');
-
+@import url('https://fonts.googleapis.com/css?family=
+Open+Sans:100,200,300,400,600
+|
+Roboto:100,200,300,400,600'
+);
 @import "styles/vars";
 @import "styles/main";
 @import "components/menu/menu";
@@ -7,30 +10,21 @@
 @import "components/footer/footer";
 @import "components/gallery/gallery";
 @import "components/tile/tile";
-@import "components/article/article";
 
 // Projects
-@import "components/ProjectPages/Cola2015/style"
+@import "components/ProjectPages/Cola2015/style";
 
-//
-//
-//
-//
-// $suzuki-color: rgba(2,43,74,.8);
-// .fade-suzuki{
-//   background: $suzuki-color;
-// }
-// $geely-color: rgba(0,101,160,.8);
-// $mri-color: rgba(162,0,103,.8);
-//
-//
-//
-//
-//
-//
-// .fade-geely{
-//   background: $geely-color;
-// }
-// .fade-mri{
-//   background: $mri-color;
-// }
+$suzuki-color: rgba(2,43,74,.8);
+.fade-suzuki{
+  background: $suzuki-color;
+}
+$geely-color: rgba(0,101,160,.8);
+$mri-color: rgba(162,0,103,.8);
+
+
+.fade-geely{
+  background: $geely-color;
+}
+.fade-mri{
+  background: $mri-color;
+}

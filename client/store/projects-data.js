@@ -9,8 +9,8 @@ export default function () {
         },
         {
           id: 2,
-          keyword: 'cola',
-          title: "The Museum of Russian Impressionism2",
+          keyword: 'Cola2015',
+          title: "Интерфейсы для стенда Coca-cola Helenic на Metro Expo 2015: фотозона, тач-экран и анкета",
           date: "2015",
           tags: ["WEB"],
         },

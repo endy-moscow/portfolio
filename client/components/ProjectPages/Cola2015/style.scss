@@ -10,6 +10,18 @@ $photo-height: 500px;
   background-position: center;
   background-size: 100% auto;
 }
+$cola-color: rgba(244,0,0,.8);
+
+.fade-cola{
+  background: $cola-color;
+}
+.tile_wrapper-cola {
+  background: url(./components/tile/cola.gif) 50% 50%;
+  background-size: 500px auto;
+}
+.content_container{
+  width: $content-width;
+}
 article {
   display: flex;
   width: 100%;
@@ -17,9 +29,7 @@ article {
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
-  .content_container{
-    width: $content-width;
-  }
+
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: $font-main;
@@ -29,7 +39,7 @@ article {
   h2{
     font-weight: 400;
     color: #444;
-    font-size: 30px;
+    font-size: 24px;
   }
   p {
     line-height: 30px;
@@ -64,14 +74,15 @@ article {
   margin-top: $photo-height - 24px;
 }
 .p2 {
-  margin-top: 3px;
+  margin-top: 6px;
   margin-bottom: 24px;
-  color: rgba(170,170,170, 1);
+  color: rgba(190,190,190, 1);
   font-family: $font-reg;
   font-size: 12px;
+  font-weight: lighter;
 }
 .p2 > a {
-  color: rgba(170,170,170, 1);
+  color: rgba(160,160,160, 1);
   text-decoration: none;
   opacity: 1;
   &:hover {
