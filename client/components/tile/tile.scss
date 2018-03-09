@@ -7,6 +7,10 @@
 
 .tile_title {
 }
+.tile_wrapper{
+  background-position: 50% 50%;
+  background-size: 500px auto;
+}
 .fade{
   h2 {
     padding: 10%;
@@ -24,11 +28,10 @@
   height: 100%;
   width: 100%;
   &:hover{
-    background: rgba(1,1,1,.4);
+    background: rgba(1,1,1,.4) !important;
     transition: .3s;
     h2 {
-      transform: scale(1.01, 1.01);
-      transition: 2s;
+      transition: .7s .5s;
       color: rgba(255,255,255,0);
     }
   }

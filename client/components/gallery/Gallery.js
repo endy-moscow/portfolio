@@ -15,8 +15,8 @@ function List (props) {
                   key={project.id}
                   title={project.title}
                   keyword={project.keyword}
-                  date={project.date}
-                  color={project.color_one}
+                  cover={project.cover[0]}
+                  color={project.color[0]}
                 />
             )}
         </div>
