@@ -32,7 +32,11 @@ function Page(props) {
   }
   return (<div className='canvas'>
 
-    <Header keyword={currentProject.keyword} title={currentProject.title}/>
+    <Header
+      keyword={currentProject.keyword}
+      title={currentProject.title}
+      imgUrl={currentProject.headerImg}
+      />
 
     <article>
       <section className='content_container'>

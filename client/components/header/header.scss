@@ -1,28 +1,16 @@
-@import './styles/_include-media.scss';
-$unit-intervals: (
-  'px': 1,
-  'em': 0.01,
-  'rem': 0.1
-) !default;
-@include media('<1200px') {
-  span.header_title {
-    color: black !important;
-    font-weight: 300;
-    font-family: $font-main;
-  }
-}
-$content-width: 760px;
-.header_container-cola2015{
-  // background: url(./components/ProjectPages/Cola2015/cover.gif) fixed 50% 50%;
+@include media('<1200px') {}
+
+.header_container{
   background-size: 1920px auto;
-}
-.header_container-home {
-  // background: url(./components/header/me.gif) fixed 100% 300%;
-  background-size: 1920px auto;
+  background-position: 50% 50%;
 }
 @keyframes opacity {
   0% {opacity:0}
   100%{opacity: 1}
+}
+.header_title_container{
+  width: 760px;
+  text-align: center;
 }
 header {
   display: flex;
@@ -44,12 +32,10 @@ header {
   align-items:center;
   height: 100%;
 }
-.header_container {
-  line-height: 1.6;
-  width: $content-width;
-}
+
 span.header_title {
   color: white;
   font-weight: 300;
   font-family: $font-main;
+  line-height: 1.6;
 }

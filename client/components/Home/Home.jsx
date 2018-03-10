@@ -9,6 +9,7 @@ export default class Home extends React.Component {
       <div className='canvas'>
         <Header
           keyword='home'
+          imgUrl= 'http://postpeople.ru/media/me.gif'
           title='Привет! Я Сергей Дузенко, digital-дизайнер из Москвы. Открыт для предложений'
         />
         <Gallery />

@@ -12,6 +12,7 @@ export default function () {
           [
             'Что-нибудь общее о проекте, предисловие, дисклеймерСтарая работа, но одна из тех, о которой вспоминаешь с большим удовольствием. Предоставил обильное кол-во иформации. Ясные механизмы взаимодействия с клиентами'
           ],
+          headerImg: ['http://postpeople.ru/media/cola2015/cover.gif'],
           thanks:
           [
             [
@@ -47,7 +48,6 @@ export default function () {
                 'http://postpeople.ru',
               ],
             },
-
             {
               subtitle: 'Info-touch-wall',
               paragraph:
@@ -60,6 +60,11 @@ export default function () {
                 'http://postpeople.ru/media/cola2015/coca-cola_infotouchwall1.jpg',
                 'http://postpeople.ru/media/cola2015/coca-cola_infotouchwall2.jpg',
                 'http://postpeople.ru/media/cola2015/coca-cola_infotouchwall3.jpg',
+              ],
+              copywrite:
+              [
+                'За фотографии спасибо visuals.ru',
+                'http://postpeople.ru',
               ],
             },
           ]

@@ -1,2 +1,8 @@
 $font-main:'Roboto', sans-serif;
 $font-reg:'Roboto', sans-serif;
+
+$unit-intervals: (
+  'px': 1,
+  'em': 0.01,
+  'rem': 0.1
+) !default;

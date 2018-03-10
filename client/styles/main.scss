@@ -1,5 +1,5 @@
 body {
-  animation: body-bg 3s infinite ease-in-out;
+  animation: body-bg 3s infinite ease;
 }
 .canvas{
   margin: auto;
@@ -20,5 +20,42 @@ body {
   }
   to {
     background: #ff3232;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: $font-main;
+  padding: 0;
+  line-height: 1.7;
+}
+h2{
+  font-weight: 400;
+  color: #444;
+  font-size: 24px;
+}
+p {
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: .7em;
+  font-family: $font-reg;
+}
+.p2 {
+  margin-top: 6px;
+  margin-bottom: 24px;
+  color: rgba(190,190,190, 1);
+  font-family: $font-reg;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.p2 > a {
+  color: rgba(160,160,160, 1);
+  text-decoration: none;
+  opacity: 1;
+  &:hover {
+    border-bottom: 1px solid rgba(160,160,160, 1);
   }
 }
