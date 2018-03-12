@@ -33,6 +33,7 @@ function Page(props) {
   return (<div className='canvas'>
 
     <Header
+      className='article_header'
       keyword={currentProject.keyword}
       title={currentProject.title}
       imgUrl={currentProject.headerImg}
@@ -59,15 +60,15 @@ function Page(props) {
                 </div>)
               }
           </Swiper>
+          <p className='p2'> За фотографии спасибо <a href={content.copywrite[1]}>{content.copywrite[0]}</a></p>
 
         </section>)
       }
 
       <section className='content_container'>
-        <p className='article_thanks'>{currentProject.thanks[0]}</p>
-        <p className='article_thanks'>{currentProject.thanks[1]}</p>
-        <p className='article_thanks'>{currentProject.thanks[2]}</p>
+        <p className='p2'>Спасибо <a href={currentProject.thanks[1]}>{currentProject.thanks[0]}</a> {currentProject.thanks[3]}за работу</p>
       </section>
+      {console.log(currentProject.thanks[1])}
     </article>
   </div>);
 }

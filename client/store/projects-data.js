@@ -44,8 +44,8 @@ export default function () {
               ],
               copywrite:
               [
-                'За фотографии спасибо visuals.ru',
-                'http://postpeople.ru',
+                'visuals.ru',
+                'http://visuals.ru',
               ],
             },
             {

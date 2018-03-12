@@ -1,0 +1,25 @@
+article {
+  display: flex;
+  width: 100%;
+  background: white;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.article {
+  display: grid;
+  background: white;
+}
+.article_header > .header_title {
+  text-align: left !important;
+}
+.article_img {
+  margin-top: 24px;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: 100% auto;
+}
+.article_subject{
+  font-size: 21px;
+}
