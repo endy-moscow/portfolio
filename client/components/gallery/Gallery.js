@@ -6,19 +6,27 @@ import Tile from '../tile/tile.jsx'
 function List (props) {
     var list = props.projects
     if (props.activeFilter !== 'ALL') {
-        list = list.filter((i) => i.tags.indexOf(props.activeFilter) !== -1);
+        list = list.filter((i) => i.tags.indexOf(props.activeFilter) !== -1)
     }
+    const params = {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        }
+      };
     return (
         <div className='gallery'>
-            {list.map(project =>
-                <Tile
-                  key={project.id}
-                  title={project.title}
-                  keyword={project.keyword}
-                  cover={project.cover[0]}
-                  color={project.color[0]}
-                />
-            )}
+          {list.map(project =>
+              <Tile
+                key={project.id}
+                title={project.title}
+                keyword={project.keyword}
+                cover={project.cover[0]}
+                color={project.color[0]}
+              />
+          )}
         </div>
     );
 }

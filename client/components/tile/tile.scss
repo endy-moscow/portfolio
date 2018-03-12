@@ -1,21 +1,12 @@
 .tile_wrapper {
   display: block;
   width: 100%;
-  height: 350px;
+  height: 300px;
   text-decoration: none;
 }
 .tile_wrapper{
   background-position: 50% 50%;
   background-size: 500px auto;
-}
-.fade{
-  h2 {
-    padding: 10%;
-    margin: 24px;
-    font-weight: 300;
-    color: rgba(255,255,255,1);
-    transition: .5s;
-  }
 }
 .fade {
   text-align: center;
@@ -24,10 +15,17 @@
   justify-content: center;
   height: 100%;
   width: 100%;
+  h3 {
+    padding: 10%;
+    margin: 24px;
+    font-weight: 300;
+    color: rgba(255,255,255,1);
+    transition: .5s;
+  }
   &:hover{
     background: rgba(1,1,1,.4) !important;
     transition: .3s;
-    h2 {
+    h3 {
       transition: .7s .5s;
       color: rgba(255,255,255,0);
     }

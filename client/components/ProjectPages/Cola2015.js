@@ -19,6 +19,10 @@ function Page(props) {
   const params = {
     ContainerEl: 'section',
     WrapperEl: 'section',
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: true,
+    },
     navigation: {
       prevEl: '.swiper-button-prev',
       nextEl: '.swiper-button-next'
@@ -33,42 +37,27 @@ function Page(props) {
   return (<div className='canvas'>
 
     <Header
-      className='article_header'
-      keyword={currentProject.keyword}
-      title={currentProject.title}
-      imgUrl={currentProject.headerImg}
+      title='Интерфейсы для стенда Coca-cola Helenic на Metro Expo 2015: фотозона, тач-экран и анкета'
+      imgUrl='http://postpeople.ru/media/cola2015/cover.gif'
       />
+    <p><a href='#yo'>visuals.ru</a></p>
 
     <article>
-      <section className='content_container'>
-        <p className='article_subject'>{currentProject.paragraph}</p>
-      </section>
+      <div className='content_container'>
 
-      {
-        currentProject.content.map((content, index) => <section key={index} className='content_container'>
+        <p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
+        <p>Точечное воздействие нетривиально. Маркетинговая коммуникация существенно индуцирует связанный PR. До недавнего времени считалось, что мониторинг активности непосредственно усиливает инвестиционный продукт.</p>
+        <h2>Бутылка с именем</h2>
+        <p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
+        <Swiper{...params}>
+          <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg)'}}></div>
+        </Swiper>
+        <p className='p2' id='yo'>За фотографии спасибо <a href='http://visuals.ru'>visuals.ru</a></p>
+        <h2>Бутылка с именем</h2>
+        <p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
 
-          <h2>{content.subtitle}</h2>
 
-          {
-            content.paragraph.map((content, index) => <p key={index} className='article_txt'>
-              {content}
-            </p>)
-          }
-          <Swiper{...params}>
-              {
-                content.image.map((content, index) => <div key={index} className='article_img' style={{backgroundImage: 'url('+content+')'}}>
-                </div>)
-              }
-          </Swiper>
-          <p className='p2'> За фотографии спасибо <a href={content.copywrite[1]}>{content.copywrite[0]}</a></p>
-
-        </section>)
-      }
-
-      <section className='content_container'>
-        <p className='p2'>Спасибо <a href={currentProject.thanks[1]}>{currentProject.thanks[0]}</a> {currentProject.thanks[3]}за работу</p>
-      </section>
-      {console.log(currentProject.thanks[1])}
+      </div>
     </article>
   </div>);
 }

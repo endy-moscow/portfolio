@@ -12,11 +12,11 @@ export default class Tile extends React.Component {
         <div
           className={'fade'}
           style={{backgroundColor: this.props.color}}>
-          <h2>
+          <h3>
             <span className='tile_title'>
               {this.props.title}
             </span>
-          </h2>
+          </h3>
         </div>
       </Link>
     )

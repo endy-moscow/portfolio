@@ -18,27 +18,30 @@ body {
   }
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 12px 100px;
+h1, h2, h3, h4, h5, h6 {
+  margin: 24px 100px 12px;
   font-family: $font-main;
   padding: 0;
   line-height: 1.7;
   &::selection{
     color: white;
+    background-color: #334;
     animation: p-selection .7s infinite ease;
   }
 }
 p {
+  font-family: $font-main;
+  margin: 12px 100px;
+  line-height: 1.7;
   font-weight: 300;
-}
-@keyframes p-selection {
-  from {
-    background-color: #777;
-  }
-  to {
-    background-color: #111;
+  font-size: 18px;
+  &::selection{
+    color: white;
+    background: #334;
+    animation: p-selection .7s infinite ease;
   }
 }
+
 .p2 {
   color: rgba(10,10,10, 1);
   font-family: $font-reg;
@@ -54,6 +57,9 @@ p {
   &:hover {
     border-bottom: 1px solid rgba(160,160,160, 1);
   }
+}
+.italic{
+  font-style: italic;
 }
 .content_container{
   width: 840px;
