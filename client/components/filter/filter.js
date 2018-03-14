@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import store from '../../store/index'
 import reducer from '../../reducers/index'
-import { setFilter } from '../../actions/filter'
+import { setFilter } from '../../actions'
 
 function List(props) {
     return (

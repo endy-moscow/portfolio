@@ -2,6 +2,7 @@ import React from 'react'
 import Gallery from '../gallery/Gallery.js'
 import Header from '../header/header.jsx'
 import Footer from '../footer/footer.jsx'
+import ModalGallery from './ModalGallery'
 
 export default class Home extends React.Component {
   render() {
@@ -12,8 +13,9 @@ export default class Home extends React.Component {
           imgUrl= 'http://postpeople.ru/media/me.gif'
           title='Привет! Я Сергей Дузенко, digital-дизайнер из Москвы. Открыт для предложений'
         />
-        <Gallery />
+        <ModalGallery  />
         <Footer />
+        <Gallery />
       </div>
     )
   }

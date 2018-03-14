@@ -62,7 +62,9 @@ function Page(props) {
   </div>);
 }
 function mapStateToProps(state) {
-  return {projects: state.projects};
+  return {
+    projects: state.projects
+  };
 }
 
 const Cola2015 = connect(mapStateToProps)(Page)

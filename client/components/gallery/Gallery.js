@@ -2,30 +2,23 @@ import React from 'react'
 import { connect } from 'react-redux'
 import store from '../../store/index'
 import Tile from '../tile/tile.jsx'
+import Modal from 'react-responsive-modal'
 
 function List (props) {
     var list = props.projects
     if (props.activeFilter !== 'ALL') {
         list = list.filter((i) => i.tags.indexOf(props.activeFilter) !== -1)
     }
-    const params = {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        }
-      };
     return (
         <div className='gallery'>
           {list.map(project =>
-              <Tile
+              <div
+                onClick={this.onOpenSecondModal}
                 key={project.id}
-                title={project.title}
-                keyword={project.keyword}
-                cover={project.cover[0]}
-                color={project.color[0]}
-              />
+                >
+
+                {project.title}
+              </div>
           )}
         </div>
     );
