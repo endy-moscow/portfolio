@@ -1,45 +1,21 @@
-body {
-  animation: body-bg 3s infinite ease;
-
-}
-
-@keyframes body-bg {
-  from {
-    background: #ff3232;
-  }
-  33% {
-    background: #ffee00;
-  }
-  66% {
-    background: #0024ff;
-  }
-  to {
-    background: #ff3232;
+*{
+  line-height: 1.7;
+  font-family: $font-main;
+  &::selection {
+    color: white;
+    background: #444;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 24px 100px 12px;
-  font-family: $font-main;
+  font-weight: 600;
   padding: 0;
-  line-height: 1.7;
-  &::selection{
-    color: white;
-    background-color: #334;
-    animation: p-selection .7s infinite ease;
-  }
 }
 p {
-  font-family: $font-main;
   margin: 12px 100px;
-  line-height: 1.7;
   font-weight: 300;
   font-size: 18px;
-  &::selection{
-    color: white;
-    background: #334;
-    animation: p-selection .7s infinite ease;
-  }
 }
 
 .p2 {
@@ -49,30 +25,41 @@ p {
   margin: 6px 0;
   text-align: right;
 }
-.p2 > a {
-  color: rgba(160,160,160, 1);
-  text-decoration: none;
-  opacity: 1;
-  border-bottom: 1px solid rgba(160,160,160,.1);
-  &:hover {
+
+p > a{
+  border-bottom: 1px solid rgba(160,160,160,.3);
+  &:hover{
     border-bottom: 1px solid rgba(160,160,160, 1);
   }
 }
-.italic{
-  font-style: italic;
-}
-.content_container{
-  width: 840px;
-}
-@include media('<1200px') {
-  .content_container{
-    width: 100%;
-    background: red;
+a {
+  color: rgba(190,190,190, 1);
+  text-decoration: none;
+  opacity: 1;
+
+
+  &:hover {
+    color: rgba(160,160,160, 1);
   }
 }
-.canvas{
+
+.italic {
+  font-style: italic;
+}
+
+.content_container {
+  width: 840px;
+}
+
+.canvas {
   margin: auto;
   width: 100%;
   height: 100%;
-  background: rgba(1,1,1,.9)
+  background: rgba(1,1,1,.9);
+}
+@include media('<1200px') {
+  .content_container {
+    width: 100%;
+    background: red;
+  }
 }

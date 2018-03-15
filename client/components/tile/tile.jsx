@@ -8,7 +8,7 @@ export default class Tile extends React.Component {
       <Link
         to={'/' + this.props.keyword}
         className={'tile_wrapper tile_wrapper-'+this.props.keyword}
-        style={{backgroundImage:'url('+this.props.cover+')'}}>
+        style={{backgroundImage:'url('+this.props.gif+')'}}>
         <div
           className={'fade'}
           style={{backgroundColor: this.props.color}}>

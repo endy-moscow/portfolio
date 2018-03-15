@@ -20,10 +20,12 @@ function List (props) {
         <div className='gallery'>
           {list.map(project =>
               <Tile
+                kind='primary'
                 key={project.id}
                 title={project.title}
                 keyword={project.keyword}
-                cover={project.cover[0]}
+                jpg={project.jpg}
+                gif={project.gif}
                 color={project.color[0]}
               />
           )}

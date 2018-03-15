@@ -16,6 +16,7 @@
     "img-loader": "^2.0.1",
     "include-media": "^1.4.9",
     "normalize.css": "^8.0.0",
+    "radium": "^0.22.1",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
