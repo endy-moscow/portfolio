@@ -2,6 +2,9 @@ import React from 'react'
 import Menu from '../menu/menu.jsx'
 
 export default class Header extends React.Component {
+  componentDidMount () {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <section

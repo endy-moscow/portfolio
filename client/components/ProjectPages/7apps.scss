@@ -1,0 +1,1517 @@
+.instagram{
+	background: red;
+}
+.instagram-media{
+	border: 4px solid black !important;
+}
+.insanity{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(to bottom, #301703 0%, #49290f 25%, #72421e 60%, #72421e 100%);
+	transition: 1s;
+	-webkit-transition: 1s;
+	.stars-insanity{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 120px;
+		top: 0;
+		background: url(http://postpeople.ru/media/7apps/insanity/stars.png) local repeat-x;
+		background-size: auto 100%;
+		background-position: 20% 0%;
+		opacity: 1;
+		animation: stars-insanity 1s infinite alternate;
+		-webkit-animation: stars-insanity 1s infinite alternate;
+	}
+	.stars2-insanity{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 110px;
+		top: 24px;
+		background: url(http://postpeople.ru/media/7apps/insanity/stars.png) local repeat-x;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+		animation: stars-insanity 1s infinite alternate-reverse ;
+		-webkit-animation: stars-insanity 1s infinite alternate-reverse ;
+	}
+
+	.cloud1-insanity{
+		position: absolute;
+		display: inline-block;
+		width: 209px;
+		height: 76px;
+		top: 11px;
+		background: url(http://postpeople.ru/media/7apps/insanity/cloud1.png) local no-repeat;
+		background-size: 100% 100%;
+		animation: cloud-insanity 360s linear;
+		-webkit-animation: cloud-insanity 360s linear;
+		left: 12%;
+	}
+	.cloud2-insanity{
+		position: absolute;
+		display: inline-block;
+		width: 103px;
+		height: 41px;
+		top: 24px;
+		background: url(http://postpeople.ru/media/7apps/insanity/cloud2.png) local no-repeat;
+		background-size: 100% 100%;
+		animation: cloud-insanity 360s linear;
+		-webkit-animation: cloud-insanity 360s linear;
+		left: 82%;
+	}
+	.cloud3-insanity{
+		position: absolute;
+		display: inline-block;
+		width: 205px;
+		height: 75px;
+		top: 24px;
+		background: url(http://postpeople.ru/media/7apps/insanity/cloud3.png) local no-repeat;
+		background-size: 100% 100%;
+		animation: cloud-insanity 360s linear;
+		-webkit-animation: cloud-insanity 360s linear;
+		left: -50%;
+	}
+	.cloud4-insanity{
+		position: absolute;
+		display: inline-block;
+		width: 136px;
+		height: 60px;
+		top: 60px;
+		background: url(http://postpeople.ru/media/7apps/insanity/cloud4.png) local no-repeat;
+		background-size: 100% 100%;
+		animation: cloud-insanity 360s linear 30s;
+		-webkit-animation: cloud-insanity 360s linear 30s;
+		left: -50%;
+	}
+	.cloud-insanity-infinite{
+		animation: cloud-insanity-infinite 360s linear infinite;
+		-webkit-animation: cloud-insanity-infinite 360s linear infinite;
+	}
+	.town-l{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 195px;
+		bottom: 195px;
+		background: url(http://postpeople.ru/media/7apps/insanity/town-l.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 0% 100%;
+	}
+	.town-r{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 195px;
+		bottom: 195px;
+		background: url(http://postpeople.ru/media/7apps/insanity/town-r.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 100% 100%;
+	}
+	.wall{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 280px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/insanity/wall.png) local repeat-x;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.dirt1{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 120px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/insanity/dirt1.png) local no-repeat;
+		background-size: 100% 100%;
+		opacity: .3;
+		background-position: 50% 0%;
+	}
+	.dirt2{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 120px;
+		bottom: -10px;
+		background: url(http://postpeople.ru/media/7apps/insanity/dirt2.png) local no-repeat;
+		background-size: auto 100%;
+		opacity: .65;
+		background-position: 10% 0%;
+	}
+	.dirt3{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 100px;
+		bottom: 10px;
+		background: url(http://postpeople.ru/media/7apps/insanity/dirt3.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 95% 0%;
+	}
+	.dirt4{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 120px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/insanity/dirt4.png) local no-repeat;
+		background-size: auto 100%;
+		opacity: .3;
+		background-position: 75% 0%;
+	}
+	.dirt5{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 120px;
+		bottom: -30px;
+		background: url(http://postpeople.ru/media/7apps/insanity/dirt5.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.staytuned{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 120px;
+		opacity: .7;
+		bottom: 0px;
+		background: url(http://postpeople.ru/media/7apps/insanity/staytuned.svg) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.stairs{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 370px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/insanity/stairs.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.name-insanity{
+		position: absolute;
+		width: 100%;
+		height: 370px;
+		bottom: 0px;
+		background: url(http://postpeople.ru/media/7apps/insanity/name.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.blink{
+		position: absolute;
+		width: 100%;
+		height: 370px;
+		bottom: 0px;
+		background: url(http://postpeople.ru/media/7apps/insanity/blink.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+		animation: blink1 12s linear infinite;
+		-webkit-animation: blink1 12s linear infinite;
+	}
+	.blink-sanity{
+		position: absolute;
+		width: 100%;
+		height: 370px;
+		bottom: 0px;
+		background: url(http://postpeople.ru/media/7apps/insanity/blink-sanity.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.herobox{
+		position: absolute;
+		width: 122px;
+		height: 144px;
+		z-index: 10;
+		right: 0;
+		left: 0;
+		bottom: 10px;
+		margin: 0 auto;
+	}
+	.herobox.hero-fly{
+		animation: hero-fly 4s infinite;
+		-webkit-animation: hero-fly 4s infinite;
+	}
+	.hero1, .hero2, .hero3, .hero4 {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+		left: 0px;
+	}
+	.hero1{
+		background: url(http://postpeople.ru/media/7apps/insanity/hero-beduin@x2.png) local no-repeat;
+		background-size: 100% 100%;
+		bottom: 0;
+	}
+	.hero1.hidden {
+		bottom: -200%;
+	}
+	.hero1.appearing {
+		animation: hero1-appearing 3s;
+		-webkit-animation: hero1-appearing 3s;
+	}
+	.hero1.standby {
+		animation: hero1-standby 3s infinite;
+		-webkit-animation: hero1-standby 3s infinite;
+	}
+	.hero1.alerted {
+		animation: hero1-alerted 2s infinite;
+		-webkit-animation: hero1-alerted 2s infinite;
+	}
+	.hero1.running {
+		animation: hero1-running 5s;
+		-webkit-animation: hero1-running 5s;
+	}
+
+	.hero2{
+		background: url(http://postpeople.ru/media/7apps/insanity/hero-buda@x2.png) local no-repeat;
+		background-size: 100% 100%;
+		bottom: 0;
+	}
+	.hero2.hidden {
+		bottom: -200%;
+	}
+	.hero2.appearing {
+		animation: hero2-appearing ease-out 3s;
+		-webkit-animation: hero2-appearing ease-out 3s;
+	}
+	.hero2.standby {
+		animation: hero2-standby 3s infinite;
+		-webkit-animation: hero2-standby 3s infinite;
+	}
+	.hero2.alerted {
+		animation: hero2-alerted 2s;
+		-webkit-animation: hero2-alerted 2s;
+	}
+	.hero2.running {
+		animation: hero2-running 5s;
+		-webkit-animation: hero2-running 5s;
+	}
+	.hero3{
+		background: url(http://postpeople.ru/media/7apps/insanity/hero-viking@x2.png) local no-repeat;
+		background-size: 100% 100%;
+		bottom: 0;
+	}
+	.hero3.hidden {
+		bottom: -200%;
+	}
+	.hero3.appearing {
+		animation: hero3-appearing 3s;
+		-webkit-animation: hero3-appearing 3s;
+	}
+	.hero3.standby {
+		animation: hero3-standby 3s;
+		-webkit-animation: hero3-standby 3s;
+	}
+	.hero3.alerted {
+		animation: hero3-alerted 3s infinite;
+		-webkit-animation: hero3-alerted 3s infinite;
+	}
+	.hero3.running {
+		animation: hero3-running 5s;
+		-webkit-animation: hero3-running 5s;
+	}
+	.hero4{
+		background: url(http://postpeople.ru/media/7apps/insanity/hero-fluffy@x2.png) local no-repeat;
+		background-size: 100% 100%;
+	}
+	.hero4.hidden {
+		bottom: -200%;
+	}
+	.hero4.appearing {
+		animation: hero4-appearing 3s;
+		-webkit-animation: hero4-appearing 3s;
+	}
+	.hero4.standby {
+		animation: hero4-standby 1.5s infinite;
+		-webkit-animation: hero4-standby 1.5s infinite;
+	}
+	.hero4.alerted {
+		animation: hero4-alerted .25s infinite;
+		-webkit-animation: hero4-alerted .25s infinite;
+	}
+	.hero4.running {
+		animation: hero4-running 5s;
+		-webkit-animation: hero4-running 5s;
+	}
+
+	.copbox{
+		position: absolute;
+		width: 100%;
+		height: 144px;
+		z-index: 10;
+		bottom: 0;
+		margin: 0;
+	}
+	.copbox.cop-fly{
+		animation: cop-fly 4s infinite;
+		-webkit-animation: cop-fly 4s infinite;
+	}
+	.cop1, .cop2{
+		position: absolute;
+		width: 122px;
+		height: 100%;
+		bottom: 0;
+	}
+	.cop1{
+		left: 0;
+		background: url(http://postpeople.ru/media/7apps/insanity/cop-man@x2.png) local no-repeat;
+		background-size: 100% 100%;
+	}
+	.cop1.hidden {
+		left: -200%;
+	}
+	.cop1.appearing {
+		animation: cop1-appearing 4s;
+		-webkit-animation: cop1-appearing 4s;
+	}
+	.cop1.running {
+		animation: cop1-running 4.5s;
+		-webkit-animation: cop1-running 4.5s;
+	}
+	.cop2{
+		right: 0px;
+		background: url(http://postpeople.ru/media/7apps/insanity/cop-woman@x2.png) local no-repeat;
+		background-size: 100% 100%;
+	}
+	.cop2.hidden {
+		right: -200%;
+	}
+	.cop2.appearing {
+		animation: cop2-appearing 4s;
+		-webkit-animation: cop2-appearing 4s;
+	}
+	.cop2.running {
+		animation: cop2-running 4.5s;
+		-webkit-animation: cop2-running 4.5s;
+	}
+}
+.littlechef{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	opacity: 1;
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(to bottom, #78efff 0%, #99fff7 36%, #cdfff9 100%);
+	transition: 1s;
+	-webkit-transition: 1s;
+	.hero-young{
+		position: absolute;
+		width: 100%;
+		height: 320px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hero-young.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 99% 0%;
+	}
+	.hero-old{
+		position: absolute;
+		width: 100%;
+		height: 320px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hero-old.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 5% 0%;
+	}
+	.name-lc{
+		position: absolute;
+		width: 100%;
+		height: 260px;
+		top: 10px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/name.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+		z-index: 10;
+		animation: name-lc 9s infinite;
+		-webkit-animation: name-lc 9s infinite;
+	}
+	.rainbow{
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/littlechef/rainbow.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.planebox{
+		position: absolute;
+		width: 118px;
+		height: 66px;
+		top: 40px;
+		right: -118px;
+		animation: planebox 24s infinite;
+		-webkit-animation: planebox 24s infinite;
+		.plane{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: url(http://postpeople.ru/media/7apps/littlechef/plane.png) local no-repeat;
+			background-size: 100% 100%;
+			background-position: 50% 0%;
+			animation: plane 48s linear infinite;
+			-webkit-animation: plane 48s linear infinite;
+		}
+	}
+
+	.grass-fur{
+		position: absolute;
+		width: 100%;
+		height: 100px;
+		bottom: 24px;
+		left: 0;
+		background: url(http://postpeople.ru/media/7apps/littlechef/grass-fur.png) local repeat-x;
+		background-size: auto 100%;
+	}
+	.grass-nearly{
+		position: absolute;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+		left: 0;
+		background: url(http://postpeople.ru/media/7apps/littlechef/grass-nearly.png) local repeat-x;
+		background-size: auto 100%;
+	}
+// hills
+	.hills-main{
+		position: absolute;
+		width: 100%;
+		height: 220px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hills-main.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+	.hill{
+		position: absolute;
+		width: 100%;
+		height: 45px;
+		bottom: 100px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hill.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 40% 0%;
+	}
+	.hill-l{
+		position: absolute;
+		width: 100%;
+		height: 160px;
+		bottom: 95px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hill-l.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: -5% 0%;
+	}
+	.hill-r{
+		position: absolute;
+		width: 100%;
+		height: 160px;
+		bottom: 95px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hill-r.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 110% 0%;
+	}
+	.hill-c{
+		position: absolute;
+		width: 100%;
+		height: 100px;
+		bottom: 95px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/hill-c.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 67% 0%;
+	}
+// clouds
+	.cloud-big-lc, .cloud-big2-lc, .cloud-big3-lc{
+		position: absolute;
+		width: 240px;
+		height: 96px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/cloud-big.png) local no-repeat;
+		background-size: 100% 100%;
+	}
+	.cloud-big-lc{
+		top: 0px;
+		left: 30px;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-big2-lc{
+		top: 10px;
+		left: 820px;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-big3-lc{
+		top: 100px;
+		left: -200px;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-small-lc, .cloud-small2-lc, .cloud-small3-lc, .cloud-small4-lc, .cloud-small5-lc, .cloud-small6-lc{
+		position: absolute;
+		width: 130px;
+		height: 64px;
+		background: url(http://postpeople.ru/media/7apps/littlechef/cloud-small.png) local no-repeat;
+		background-size: 100% 100%;
+	}
+	.cloud-small-lc{
+		top: 20px;
+		left: 90%;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-small2-lc{
+		top: 120px;
+		left: 20%;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-small3-lc{
+		top: 140px;
+		left: 70%;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-small4-lc{
+		top: -24px;
+		left: 24%;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-small5-lc{
+		top: 220px;
+		left: -20%;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-small6-lc{
+		top: 30px;
+		left: -24%;
+		animation: cloud-out 120s linear;
+		-webkit-animation: cloud-out 120s linear;
+	}
+	.cloud-infinite-play-big-lc{
+		animation: cloud-infinite 120s linear infinite;
+		-webkit-animation: cloud-infinite 120s linear infinite;
+	}
+	.cloud-infinite-play-small-lc{
+		animation: cloud-infinite 120s linear infinite;
+		-webkit-animation: cloud-infinite 120s linear infinite;
+	}
+}
+.cosmic{
+	position: relative;
+	overflow: hidden;
+	opacity: 1;
+	width: 100%;
+	background: linear-gradient(to bottom, #091024 0%, #0B274A 60%,#084A82 100%);
+	height: 400px;
+	background-size: 100% 400px;
+	transition: 1s;
+	-webkit-transition: 1s;
+	.raysbox{
+		position: relative;
+		width: 140%;
+		height: 100%;
+		margin-left: -20%;
+		text-align: center;
+	}
+	.rays{
+		position: absolute;
+		height: 5000px;
+		width: 120%;
+		margin-left: -10%;
+		top: -2000px;
+		opacity: .02;
+		background: url(http://postpeople.ru/media/7apps/cosmic/rays.svg) local no-repeat;
+		background-size: 100% 100%;
+		background-position: 0% 0%;
+		animation: rays 48s linear infinite;
+		-webkit-animation: rays 48s linear infinite;
+	}
+	.stars{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		background: url(http://postpeople.ru/media/7apps/cosmic/stars.png) local repeat-x;
+		background-size: auto 100%;
+		animation: stars .6s infinite alternate;
+		-webkit-animation: stars .6s infinite alternate;
+	}
+	.black-hole{
+		position: absolute;
+		display: inline-block;
+		width: 160px;
+		height: 150px;
+		bottom: 45%;
+		opacity: .2;
+		left: 60%;
+		background: url(http://postpeople.ru/media/7apps/cosmic/blackhole.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 0% 100%;
+		animation: turn 30s linear infinite;
+		-webkit-animation: turn 30s linear infinite;
+	}
+	.planet-big{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 110px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/cosmic/planet-big.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 100% 100%;
+	}
+	.planet-small{
+		position: absolute;
+		display: inline-block;
+		width: 160px;
+		height: 150px;
+		top: -60px;
+		left: 18%;
+		background: url(http://postpeople.ru/media/7apps/cosmic/planet-small.png) local no-repeat;
+		background-size: auto 100%;
+		animation: turn 120s linear infinite;
+		-webkit-animation: turn 120s linear infinite;
+	}
+	.robot{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 350px;
+		bottom: 0;
+		background: url(http://postpeople.ru/media/7apps/cosmic/robot.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 0% 100%;
+	}
+	.ufobox{
+		position: absolute;
+		display: inline-block;
+		width: 210px;
+		height: 210px;
+		bottom: 190px;
+		right: 1%;
+		animation: ufobox 9.4s ease-in-out infinite;
+		-webkit-animation: ufobox 9.4s ease-in-out infinite;
+	}
+	.ufo{
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		background: url(http://postpeople.ru/media/7apps/cosmic/ufo.png) local no-repeat;
+		background-size: auto 100%;
+		animation: ufo 4.4s infinite;
+		-webkit-animation: ufo 4.4s infinite;
+	}
+	.namebox{
+		top: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		animation: namebox 6s infinite;
+		-webkit-animation: namebox 6s infinite;
+	}
+	.nameback{
+		position: absolute;
+		width: 100%;
+		height: 350px;
+		top: 0px;
+		background: url(http://postpeople.ru/media/7apps/cosmic/name-back.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+		animation: glow 1s ease-in infinite;
+		-webkit-animation: glow 1s ease-in infinite;
+	}
+	.name{
+		position: absolute;
+		width: 100%;
+		height: 350px;
+		top: 0px;
+		background: url(http://postpeople.ru/media/7apps/cosmic/name.png) local no-repeat;
+		background-size: auto 100%;
+		background-position: 50% 0%;
+	}
+}
+// insanity-animation
+@keyframes stars-insanity {
+  from, {
+      opacity: 1;
+  }
+  to {
+      opacity: .5;
+  }
+}
+@keyframes cloud-insanity {
+  to {
+      transform: translateX(4000px);
+  }
+}
+@keyframes cloud-insanity-infinite {
+  from	{transform: translateX(-2000px)}
+  to		{transform: translateX(2000px)}
+}
+@keyframes blink1 {
+  41%, 51%, 71%, 73%, 76%, 99% {
+      opacity: 1;
+  }
+  0%,
+  40.5%,
+  41.5%,
+  50.5%,
+  51.5%,
+  70.5%,
+  71.5%,
+  72.5%,
+  73.5%,
+  100% {
+      opacity: 0;
+  }
+}
+@keyframes hero-fly {
+  from, to {
+      transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+      transform: translateY(-15px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+      transform: translateY(15px);
+  }
+}
+@keyframes hero1-appearing {
+  0% {
+      transform: translateY(1500px);
+  }
+  60% {
+      transform: translateY(-30px);
+  }
+  80% {
+      transform: translateY(10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+@keyframes hero1-standby {
+  from {
+      transform: translateX(0px) translateY(0);
+      opacity: 1;
+  }
+  10% {
+      transform: translateX(0px) translateY(0px);
+      opacity: 1;
+  }
+  10.1% {
+      transform: translateX(0px) translateY(0px) rotate(0deg);
+      opacity: 0;
+  }
+  20.2% {
+      transform: translateX(24px) translateY(0px) rotate(15deg);
+      opacity: 0;
+  }
+  20.3% {
+      transform: translateX(24px) translateY(0px) rotate(15deg);
+      opacity: 1;
+  }
+  30% {
+      transform: translateX(24px) translateY(0px);
+      opacity: 1;
+  }
+  30.1% {
+      transform: translateX(24px) translateY(0px) rotate(0deg);
+      opacity: 0;
+  }
+  40.2% {
+      transform: translateX(-24px) translateY(0px) rotate(-15deg);
+      opacity: 0;
+  }
+  40.3% {
+      transform: translateX(-24px) translateY(0px) rotate(-15deg);
+      opacity: 1;
+  }
+  50% {
+      transform: translateX(-24px) translateY(0px);
+      opacity: 1;
+  }
+  50.1% {
+      transform: translateX(-24px) translateY(0px) rotate(0deg);
+      opacity: 0;
+  }
+  60.2% {
+      transform: translateX(0) translateY(0px) rotate(15deg);
+      opacity: 0;
+  }
+  60.3% {
+      transform: translateX(0) translateY(0px) rotate(15deg);
+      opacity: 1;
+  }
+  70% {
+      transform: translateX(0) translateY(0px);
+      opacity: 1;
+  }
+  70.1% {
+      transform: translateX(0) translateY(0px) scale(1.2) rotate(0deg);
+      opacity: 0;
+  }
+  80.2% {
+      transform: translateX(0px) translateY(0px) scale(1);
+      opacity: 0;
+  }
+  80.3% {
+      transform: translateX(0px) translateY(0px) scale(1.2);
+      opacity: 1;
+  }
+  90{
+      transform: translateX(0px) translateY(0px) scale(0.9);
+      opacity: 1;
+  }
+  to {
+      transform: translateX(0px) translateY(0px) scale(1);
+      opacity: 1;
+  }
+}
+@keyframes hero1-alerted {
+  0%, 20%, 40%, 60%, 80%, 100% {
+      transform: scale(1, 1) translateY(0px);
+  }
+  10%, 50%, 90% {
+      transform: scale(.97, .97) translateY(3px);
+  }
+  30%, 70% {
+      transform: scale(.97, .97) translateY(6px);
+  }
+}
+@keyframes hero1-running {
+  1% {
+      transform: rotate(15deg);
+  }
+  to {
+      transform: translateX(6000px) rotate(30deg);
+  }
+}
+@keyframes hero2-appearing {
+  0% {
+      transform: translateY(500px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+  80% {
+      transform: translateY(5px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+@keyframes hero2-standby {
+  from, to {
+      opacity: 1;
+  }
+  70% {
+      opacity: .2;
+      transform: translateY(-64px);
+  }
+}
+@keyframes hero2-alerted {
+  0%, 100% {
+      transform: rotate(0deg);
+  }
+  50% {
+      transform: rotate(0deg);
+  }
+  60% {
+      transform: rotate(-9deg);
+  }
+  80% {
+      transform: rotate(1deg);
+  }
+}
+@keyframes hero2-running {
+  from {
+      transform: rotate(-6deg);
+  }
+  to {
+      transform: translateX(-6000px) rotate(-30deg);
+  }
+}
+@keyframes hero3-appearing {
+  0% {
+      transform: translateY(300px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+  80% {
+      transform: translateY(5px);
+  }
+  100% {
+      transform: translateY(0);
+
+  }
+}
+@keyframes hero3-standby {
+  0% {
+      transform: scale3d(1, 1, 1);
+  }
+  2.5%,
+  5% {
+      transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+  7.5%,
+  12.5%,
+  17.5%,
+  22.5% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  10%,
+  15%,
+  20% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  50% {
+      transform: scale3d(1, 1, 1);
+  }
+  75% {
+      transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+      transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes hero3-alerted {
+  0%, 20%, 40%, 60%, 80%, 100% {
+      transform: scale(1, 1);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+      transform: scale(1.04, 1.04);
+  }
+}
+@keyframes hero3-running {
+  1% {
+      transform: rotate(6deg);
+  }
+  to {
+      transform: translateX(6000px) rotate(30deg);
+  }
+}
+@keyframes hero4-appearing {
+  0% {
+      transform: translateY(300px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+  80% {
+      transform: translateY(5px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+@keyframes hero4-standby {
+  0% {
+      transform: rotate(0deg);
+  }
+  20% {
+      transform: rotate(15deg);
+  }
+  40% {
+      transform: rotate(-10deg);
+  }
+  60% {
+      transform: rotate(5deg);
+  }
+  80% {
+      transform: rotate(-5deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+@keyframes hero4-alerted {
+  0%, 100% {
+      transform: translateX(0px);
+  }
+  33% {
+      transform: translateX(-2px);
+  }
+  66% {
+      transform: translateX(2px);
+  }
+}
+@keyframes hero4-running {
+  from {
+      transform: rotate(-6deg);
+  }
+  to {
+      transform: translateX(-6000px) rotate(-30deg);
+  }
+}
+@keyframes cop-fly {
+  from, to {
+      transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+      transform: translateY(-15px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+      transform: translateY(15px);
+  }
+}
+@keyframes cop1-appearing {
+  from {
+      transform: translateX(-300px);
+  }
+  to {
+      transform: translateX(0px)
+  }
+}
+@keyframes cop1-running {
+  1% {
+      transform: rotate(6deg);
+  }
+  to {
+      transform: translateX(3000px) rotate(30deg);
+  }
+}
+@keyframes cop2-appearing {
+  from {
+      transform: translateX(300px);
+  }
+  to {
+      transform: translateX(0px)
+  }
+}
+@keyframes cop2-running {
+  1% {
+      transform: rotate(-6deg);
+  }
+  to {
+      transform: translateX(-3000px) rotate(-30deg);
+  }
+}
+
+//littlechef-animation
+@keyframes name-lc {
+  from, to {
+      transform: translateY(0) rotate(0deg);
+  }
+  70% {
+      transform: translateY(10px) rotate(0deg);
+  }
+}
+@keyframes planebox {
+  from, to {
+      transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+      transform: translateY(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+      transform: translateY(10px);
+  }
+}
+@keyframes plane {
+  from {
+      transform: translateX(500);
+  }
+  to {
+      transform: translateX(-5000px);
+  }
+}
+@keyframes cloud-out {
+  to {
+      transform: translateX(2000px);
+  }
+}
+@keyframes cloud-infinite {
+  from {
+      transform: translateX(-2000px);
+  }
+  to {
+      transform: translateX(2000px);
+  }
+}
+
+// cosmic-animation
+@keyframes rays {
+  from, {
+      transform: rotate( 30deg);
+  }
+  to {
+      transform: rotate(0);
+  }
+}
+@keyframes stars {
+  from, {
+      opacity: 1;
+  }
+  to {
+      opacity: .79;
+  }
+}
+@keyframes turn {
+  from {
+      transform: rotate( 0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+@keyframes glow {
+  from, {
+      opacity: 1;
+  }
+  to {
+      opacity: .7;
+  }
+}
+@keyframes namebox {
+  from {
+      transform: scale(1) rotate(0deg) translateY(0);
+  }
+  65% {
+      transform: scale(1.1) rotate(0deg) translateY(0);
+  }
+  to {
+      transform: scale(1) rotate(0deg) translateY(0);
+  }
+}
+@keyframes ufobox {
+  from {
+      transform: translateX(0);
+  }
+  20% {
+      transform: translateX(7px);
+  }
+  40% {
+      transform: translateX(-7px);
+  }
+  60% {
+      transform: translateX(16px);
+  }
+  80% {
+      transform: translateX(0px);
+  }
+  to {
+      transform: translateX(0px);
+  }
+}
+@keyframes ufo {
+  from {
+      transform: translateY(0);
+  }
+  20% {
+      transform: translateY(4px);
+  }
+  40% {
+      transform: translateY(-3px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+  80% {
+      transform: translateY(4px);
+  }
+  to {
+      transform: translateY(0px);
+  }
+}
+
+// media queries
+@media only screen and (min-width: 561px) and (max-width: 800px){
+	//insanity.scss
+	.insanity{
+		height: 300px;
+		transition: 1s;
+		.dirt1, .dirt2, .dirt3, .dirt4, .dirt5 {
+			height: 70px;
+		}
+		.staytuned{
+			height: 80px;
+			opacity: .7;
+			bottom: 5px;
+		}
+		.name-insanity, .stairs, .blink-sanity, .blink {
+			height: 270px;
+		}
+		.wall{
+			height: 205px;
+		}
+		.town-l{
+			position: absolute;
+			display: inline-block;
+			width: 100%;
+			height: 195px;
+			bottom: 100px;
+			background-position: -60% 100%;
+		}
+		.town-r{
+			position: absolute;
+			display: inline-block;
+			width: 100%;
+			height: 195px;
+			bottom: 100px;
+			background-position: 160% 100%;
+		}
+		.herobox{
+			width: 91.5px;
+			height: 108px;
+			bottom: 24px;
+		}
+		.copbox{
+			height: 108px;
+			bottom: 16px;
+		}
+		.cop1, .cop2{
+			width: 91.5px;
+			height: 108px;
+		}
+		.cop2.running {
+			animation: cop2-running 5.3s;
+			-webkit-animation: cop2-running 5.3s;
+		}
+		.cop1.running {
+			animation: cop1-running 5.3s;
+			-webkit-animation: cop1-running 5.3s;
+		}
+	}
+
+	//littlechef.scss
+	.littlechef{
+		height: 300px;
+		transition: 1s;
+		-webkit-transition: 1s;
+		.hero-young{
+			height: 180px;
+			background-position: 100% 0%;
+		}
+		.hero-old{
+			height: 180px;
+		}
+		.name{
+			height: 180px;
+		}
+		.rainbow{
+			position: absolute;
+			width: 100%;
+			height: 320px;
+		}
+		.hill{
+			display: none;
+		}
+		.hill-r, .hill-c, .hill-l{
+			height: 100px;
+		}
+	}
+
+	//cosmic.scss
+	.cosmic{
+		height: 300px;
+		transition: 1s;
+		-webkit-transition: 1s;
+		.rays{
+			position: absolute;
+			height: 5000px;
+			top: -2150px;
+			opacity: .02;
+			background: url(http://postpeople.ru/media/7apps/cosmic/rays.svg) local no-repeat;
+			background-size: 100% 100%;
+			background-position: 0% 0%;
+		}
+		.nameback, .name {
+			height: 250px;
+			top: 0px;
+		}
+		.planet-small{
+			width: 96px;
+			height: 96px;
+			top: 0px;
+			left: 16%;
+		}
+		.robot{
+			height: 250px;
+		}
+		.ufobox{
+			width: 150px;
+			height: 150px;
+			bottom: 90px;
+			right: 5%;
+		}
+		.ufo{
+			right: 0;
+		}
+		.black-hole{
+			display: none;
+		}
+	}
+}
+@media only screen and (min-width: 1px) and (max-width: 560px){
+	//insanity.scss
+	.insanity{
+		height: 250px;
+		transition: 1s;
+		.dirt1, .dirt2, .dirt3, .dirt4, .dirt5 {
+			height: 70px;
+		}
+		.staytuned{
+			height: 80px;
+			opacity: .9;
+			bottom: 0px;
+		}
+		.name-insanity, .stairs, .blink-sanity, .blink {
+			height: 240px;
+		}
+		.wall{
+			height: 180px;
+		}
+		.cloud3-insanity, .cloud4-insanity{
+			display: none;
+		}
+		.town-l{
+			position: absolute;
+			display: inline-block;
+			width: 50%;
+			left:0;
+			height: 195px;
+			bottom: 130px;
+			background-position: 0% 100%;
+			background-size: 100% auto;
+		}
+		.town-r{
+			position: absolute;
+			display: inline-block;
+			width: 50%;
+			right: 0;
+			height: 195px;
+			bottom: 130px;
+			background-position: 100% 100%;
+			background-size: 100% auto;
+		}
+		.herobox{
+			width: 91.5px;
+			height: 108px;
+			bottom: 24px;
+		}
+		.copbox{
+			height: 108px;
+			bottom: 20px;
+		}
+		.cop1, .cop2{
+			width: 91.5px;
+			height: 108px;
+		}
+		.cop2.running {
+			animation: cop2-running 7s;
+		}
+		.cop1.running {
+			animation: cop1-running 7s;
+		}
+	}
+
+	//littlechef.scss
+	.littlechef{
+		height: 250px;
+		transition: 1s;
+		.hero-young{
+			height: 160px;
+			background-position: 100% 0%;
+		}
+		.hero-old{
+			height: 160px;
+		}
+		.name-lc{
+			height: 180px;
+			top: 0px;
+		}
+		.planebox{
+			width: 100px;
+			height: 50px;
+		}
+		.rainbow{
+			position: absolute;
+			width: 100%;
+			height: 310px;
+		}
+		.hill{
+			display: none;
+		}
+		.hill-r, .hill-c, .hill-l{
+			height: 100px;
+		}
+	}
+
+	//cosmic.scss
+	.cosmic{
+		height: 250px;
+		transition: 1s;
+		.planet-small{
+			width: 96px;
+			height: 96px;
+			top: 0px;
+			left: 16%;
+		}
+		.rays{
+			position: absolute;
+			height: 5300px;
+			width: 120%;
+			top: -2400px;
+			opacity: .02;
+			background: url(http://postpeople.ru/media/7apps/cosmic/rays.svg) local no-repeat;
+			background-size: 100% 100%;
+			background-position: 0% 0%;
+			animation: rays 64s infinite;
+		}
+		.nameback, .name {
+			height: 200px;
+			top: 0px;
+		}
+		.ufo{
+			right: 0;
+		}
+		.ufobox{
+			width: 130px;
+			height: 140px;
+			bottom: 120px;
+			right: 1%;
+		}
+		.black-hole{
+			display: none;
+		}
+		.robot{
+			height: 250px;
+		}
+	}
+}
