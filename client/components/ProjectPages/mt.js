@@ -36,10 +36,10 @@ export default function Page(props) {
           <h2>Бутылка с именем</h2>
           <p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
           <Swiper{...params}>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg)'}}></div>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg)'}}></div>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg)'}}></div>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg)'}}></div>
+            <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg'/>
+            <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg'/>
+            <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg'/>
+            <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg'/>
           </Swiper>
           <p className='source'>За фотографии спасибо <a href='http://visuals.ru'>visuals.ru</a></p>
           <h2>Бутылка с именем</h2>

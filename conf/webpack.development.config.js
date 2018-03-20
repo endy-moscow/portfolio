@@ -15,25 +15,6 @@ export default new Config().extend('conf/webpack.base.config.js').merge({
     path: path.resolve(__dirname, 'public'),
     publicPath: '/'
   },
-  module: {
-       loaders: [
-         {
-           test: /\.(scss|css)$/,
-           use: [
-             "style-loader",
-             "css-loader",
-             "sass-loader"
-           ]
-         },
-         {
-           test: /\.(gif|png|jpe?g|svg)$/i,
-           use: [
-             'url-loader',
-             'img-loader'
-           ]
-         }
-       ]
-     },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ]

@@ -10,19 +10,17 @@ article {
   }
 }
 .article_img {
-  margin-top: 24px;
   height: 500px;
-  width: 100%;
   background-position: center;
   background-size: 100% auto;
 }
-.article_img_ipad {
-  margin-top: 24px;
-  width: 100%;
-  height: 600px;
-  background-position: center;
-  background-size: 100% auto;
-}
+// .article_img_ipad {
+//   margin-top: 24px;
+//   width: 100%;
+//   height: 600px;
+//   background-position: center;
+//   background-size: 100% auto;
+// }
 .source{
   font-size: 12px;
   text-align: right;
@@ -37,4 +35,21 @@ article {
 }
 .grey{
   color: #ddd;
+}
+.fact{
+  width: 50%;
+  b{
+    font-size: 36px;
+  }
+}
+.instagram-media{
+	  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+    display: inline !important;
+}
+.content_container {
+  width: 840px;
+}
+@include media('<1200px') {
+  .content_container {
+  }
 }

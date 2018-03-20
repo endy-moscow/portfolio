@@ -5,7 +5,6 @@ import $ from 'jquery'
 import './7apps.scss'
 
 export default function SevenApps() {
-
   $(document).ready(function() {
             var $cloudsBig = $('.cloud-big-lc, .cloud-big2-lc, .cloud-big3-lc'),
                 $cloudsSmall = $('.cloud-small-lc, .cloud-small2-lc, .cloud-small3-lc, .cloud-small4-lc, .cloud-small5-lc, .cloud-small6-lc')
@@ -18,7 +17,6 @@ export default function SevenApps() {
                 console.log(2);
             });
         });
-
   $(document).ready(function() {
             var $cloudsInsanity = $('.cloud1-insanity, .cloud2-insanity, .cloud3-insanity, .cloud4-insanity');
             $cloudsInsanity.bind('animationend', function() {
@@ -26,7 +24,6 @@ export default function SevenApps() {
                 console.log(3);
             });
         });
-
   $(document).ready(function() {
     var $hero1 = $('.hero3'),
                 $hero2 = $('.hero4'),
@@ -85,7 +82,6 @@ export default function SevenApps() {
                     }, 2000); // пауза между концом появления героя и появлением копа
                 }, 3000); // пауза между началом анимации и концом появления
             }
-
             start_scene($hero1, $cop1);
   })
   return (

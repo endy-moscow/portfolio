@@ -2,26 +2,8 @@ import React from 'react'
 import Menu from '../menu/menu.jsx'
 import Header from '../header/header.jsx'
 import Swiper from 'react-id-swiper'
-
+import { params } from './params'
 export default function Page(props) {
-  const params = {
-    ContainerEl: 'section',
-    WrapperEl: 'section',
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: true,
-    },
-    navigation: {
-      prevEl: '.swiper-button-prev',
-      nextEl: '.swiper-button-next'
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction'
-    },
-    grabCursor: true,
-    loop: true
-  }
   return (
   <div className='canvas'>
     <Header
@@ -31,8 +13,8 @@ export default function Page(props) {
     <article>
       <div className='content_container'>
         <section className='block'>
-          <p>Международная выставка внедорожников, кроссоверов и вездеходов Moscow Off-road Show прошла в «Крокус Экспо» в августе 2015 года. Компания Geely презентовала на ней новую модель автомобиля.</p>
-          <p>На стенд привезли демонстрационные модели, установили декорации наняли фотографов.</p>
+          <p>В августе 2015 года в «Крокус Экспо» прошла международная выставка внедорожников, кроссоверов и вездеходов Moscow Off-road Show. Компания Geely презентовала на ней новую модель автомобиля.</p>
+          <p>На стенд привезли демонстрационные модели и установили декорации. На протяжении всего мероприятия на стенде работали фотографы. Актуальным вопросом было быстрое и легкое получени фотографий.</p>
           <p>Гости регистрировались с помощью планшетов вмонтированных в стойку рецепции и получали карточку с QR-кодом. Фотографии с автомобилем в реальном времени появлялись на интерактивном столе. Посетители постили их в социальные сети или отправляли на почту, используя персонифицированную карту с QR-кодом.</p>
           <Swiper{...params}>
             <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/geely2015/geely_photo4.jpg)'}}></div>
