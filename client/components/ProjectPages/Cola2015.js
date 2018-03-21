@@ -42,7 +42,7 @@ export default class Home extends React.Component {
             <section className='block'>
               <h2>Интерактивная фотозона с управлением через iPad</h2>
               <p>Многие помнят маркетинговую компанию «Это твоя Coca-Cola». На стенде была фотозона посвященная ей. В качестве фона для фотографий был установлен макет бутылки с экраном на месте этикетки. С помощью iPad девушка-промоутер вводила имя гостя. После, фотограф делал несколько фото, которые отправлялись на почту гостю.</p>
-              <p className='fact'>За время выставки гостям было отправлено <b>726</b> фотографий</p>
+              <p>За время выставки гостям было отправлено <b>726</b> фотографий</p>
               <Swiper{...params}>
                 <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_bottle1.jpg'/></div>
                 <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_bottle2.jpg'/></div>

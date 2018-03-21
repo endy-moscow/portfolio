@@ -9,7 +9,7 @@ export default class Gallery extends React.Component {
           <Tile
             link='rusimp'
             title='Мультимедийная зона в Музее русского импрессионизма'
-            gif='http://postpeople.ru/media/mri/mri.gif'
+            gif='http://postpeople.ru/media/mri/cover.gif'
             color='rgba(255, 94, 0, .95)'/>
 
           <Tile
