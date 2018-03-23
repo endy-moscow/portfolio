@@ -57,9 +57,9 @@ export default class Home extends React.Component {
               <p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
               <p>За время выставки гости отправили <b>220</b> презентаций</p>
               <Swiper{...params}>
-                <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_infotouchwall1.jpg'/>
-                <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_infotouchwall2.jpg'/>
-                <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_infotouchwall3.jpg'/>
+                <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_infotouchwall1.jpg'/></div>
+                <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_infotouchwall2.jpg'/></div>
+                <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_infotouchwall3.jpg'/></div>
               </Swiper>
               <p className='source'>За фотографии спасибо <a href='http://visuals.ru'>visuals.ru</a></p>
             </section>
@@ -68,8 +68,8 @@ export default class Home extends React.Component {
               <p>Для сбора данных с посетителей стенда, в стойку рецепции вмонтировали планшеты с анкетами. Я разработал для них простой и лаконичный дизайн.</p>
               <p>За время выставки гости заполнили <b>421</b> анкету.</p>
               <Swiper{...params}>
-                <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_questionnaire1.jpg'/>
-                <img height='100%' src='http://postpeople.ru/media/cola2015/coca-cola_questionnaire2.jpg'/>
+                <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_questionnaire1.jpg'/></div>
+                <div><img height='auto' width='100%' src='http://postpeople.ru/media/cola2015/coca-cola_questionnaire2.jpg'/></div>
               </Swiper>
             </section>
           </div>

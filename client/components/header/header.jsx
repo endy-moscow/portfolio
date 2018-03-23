@@ -16,8 +16,9 @@ export default class Header extends React.Component {
           <div className='header_wrapper'>
             <div className='header_title_container'>
               <h1><span className='header_title'>
-                {this.props.title}
+                {this.props.title}<a href={this.props.link}>{this.props.linkName}</a>
               </span></h1>
+
             </div>
           </div>
         </header>

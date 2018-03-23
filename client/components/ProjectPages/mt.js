@@ -2,6 +2,8 @@ import React from 'react'
 import Menu from '../menu/menu.jsx'
 import Header from '../header/header.jsx'
 import Swiper from 'react-id-swiper'
+import InstagramLoader from '../instagram-loader/InstagramLoader.jsx'
+import params from './params'
 
 export default function Page(props) {
   const params = {
@@ -26,10 +28,15 @@ export default function Page(props) {
     <div className='canvas'>
       <Header
         title='MT'
-        imgUrl='http://postpeople.ru/media/mri/mri.gif'
+        imgUrl='http://postpeople.ru/media/mt/cover.gif'
         />
       <article>
         <div className='content_container'>
+          <InstagramLoader
+            url='https://instagr.am/p/Bb842CTB9Oe/'
+            maxWidth={480}
+            containerTagName='div'
+            />
           <p>Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит, какой именно текст получится — таким образом, авторские права на реферат принадлежат только вам.</p>
           <p>Точечное воздействие нетривиально. Маркетинговая коммуникация существенно индуцирует связанный PR. До недавнего времени считалось, что мониторинг активности непосредственно усиливает инвестиционный продукт.</p>
 

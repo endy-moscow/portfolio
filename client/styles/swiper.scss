@@ -25,3 +25,15 @@
 .swiper-button-next{
   transform: rotate(180deg);
 }
+@include media('<840px') {
+  .swiper-pagination-fraction{
+    right: 46%;
+    left: 46%;
+  }
+}
+@include media('<500px') {
+  .swiper-pagination-fraction{
+    right: 45%;
+    left: 45%;
+  }
+}

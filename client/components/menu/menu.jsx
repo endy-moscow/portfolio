@@ -5,8 +5,8 @@ export default class Menu extends React.Component {
   render() {
     return (
       <div className='menu'>
-        <Link className='menu_link' to='/' >projects</Link>
-        <Link className='menu_link' to='/about'>about me</Link>
+        <Link className='menu_link' to='/'>Проекты</Link>
+        <Link className='menu_link' to='/about'>Обо мне</Link>
       </div>
     )
   }

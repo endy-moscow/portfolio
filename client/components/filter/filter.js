@@ -5,17 +5,14 @@ import store from '../../store/index'
 import reducer from '../../reducers/index'
 import { setFilter } from '../../actions/filter'
 
-function List(props) {
+function TagsList(props) {
     return (
-        <div>
+        <div className='filter'>
             {props.filters.map(filter =>
-                <button
-                  onClick={() => {props.onSetFilter(filter.name)}}
-                  key={filter.id}>
+                <a key={filter.id} onClick={() => {props.onSetFilter(filter.name)}}>
                     {filter.name}
-                </button>
+                </a>
             )}
-            <div>{props.activeFilter}</div>
         </div>
     );
 }
@@ -36,5 +33,5 @@ function mapDispatchToProps(dispatch) {
     };
 }
 
-const ListOfFilters = connect(mapStateToProps, mapDispatchToProps)(List);
-export default ListOfFilters;
+const Filter = connect(mapStateToProps, mapDispatchToProps)(TagsList);
+export default Filter;

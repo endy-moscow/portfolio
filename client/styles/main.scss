@@ -1,3 +1,4 @@
+@include media('<1px') {}
 *{
   line-height: 1.7;
   font-family: $font-main;
@@ -6,32 +7,17 @@
     background: #444;
   }
 }
+#root{
+  overflow: hidden;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 24px 100px 12px;
   font-weight: 600;
   padding: 0;
 }
 p {
-  margin: 12px 100px;
   font-weight: 300;
   font-size: 18px;
-}
-
-.p2 {
-  color: rgba(10,10,10, 1);
-  font-family: $font-reg;
-  font-size: 13px;
-  margin: 6px 0;
-  text-align: right;
-}
-
-p > a{
-  border-bottom: 1px solid rgba(100,100,100, .3);
-  transition: .24s;
-  &:hover{
-    border-bottom: 1px solid rgba(1,1,1, 1);
-  }
 }
 a {
   color: rgba(0,0,0, 1);
@@ -41,18 +27,9 @@ a {
     color: rgba(125,125,125, 1);
   }
 }
-.insta3{
-  margin-top: 24px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  div {
-    width: auto;
-    margin: 0 12px;
-  }
-}
-
 .canvas {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   width: 100%;
   height: 100%;

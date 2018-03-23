@@ -1,7 +1,8 @@
 import express from 'express';
+var router = express.Router();
 import path from 'path';
 
-const PORT = 2400;
+const PORT = 2424;
 const PUBLIC_PATH = __dirname + '/public';
 const app = express();
 

@@ -3,7 +3,7 @@
   background-position: 50% 50%;
 }
 .header_title_container{
-  width: 760px;
+  max-width: 600px;
   text-align: center;
 }
 header {
@@ -15,6 +15,14 @@ header {
   height: 500px;
   &:hover{
     background-color: rgba(1,1,1,0.75);
+  }
+  h1{
+    margin: 36px;
+    font-size: 24px;
+  }
+  .menu{
+    text-align: right;
+    padding: 20px 60px 0 0;
   }
 }
 .header_wrapper{
@@ -49,5 +57,17 @@ span.header_title {
   }
   header{
     height: 350px;
+  }
+}
+@include media('<840px'){
+  .header_container{
+    background-size: auto 100%;
+    background-position: 50% 50%;
+  }
+  header {
+    .menu{
+      text-align: center;
+      padding: 20px 0;
+    }
   }
 }
