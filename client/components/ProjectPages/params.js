@@ -1,6 +1,7 @@
 const params = {
   ContainerEl: 'section',
   WrapperEl: 'section',
+  spaceBetween: 24,
   autoplay: {
     delay: 4000,
     disableOnInteraction: true,

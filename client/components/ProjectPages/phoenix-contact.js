@@ -2,70 +2,33 @@ import React from 'react'
 import Menu from '../menu/menu.jsx'
 import Header from '../header/header.jsx'
 import Swiper from 'react-id-swiper'
+import params from './params'
 
-export default function Page(props) {
-  const params = {
-    ContainerEl: 'section',
-    WrapperEl: 'section',
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: true,
-    },
-    navigation: {
-      prevEl: '.swiper-button-prev',
-      nextEl: '.swiper-button-next'
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction'
-    },
-    grabCursor: true,
-    loop: true
-  }
-  return (
-  <div className='canvas'>
-    <Header
-      title='Интерфейсы на стенде Suzuki на Московском международном автомобильном салоне&nbsp;2014'
-      imgUrl='http://postpeople.ru/media/suzuki/suzuki.gif'
-      />
-    <article>
-      <div className='content_container'>
-        <section className='block'>
-          <p>Каждые 2 года в Москве проводится Международный Автомобильный Салон. В 2014 году я проектировал инсталляции для стенда Suzuki. </p>
-        </section>
+export default class Page extends React.Component {
+  render() {
+    return (
+      <div className='canvas'>
+        <Header
+          title='Мультимедийная зона в Музее русского импрессионизма'
+          imgUrl='http://postpeople.ru/media/mri/cover.jpg'
+          />
+        <article>
+          <div className='content_container'>
+            <h2>О музее</h2>
+            <p><a href='http://rusimp.su'>Музей русского импрессионизма</a> открыт в мае 2016 года на территории бывшей кондитерской фабрики Большевик. Отзывы можно прочитать в <a href='https://www.google.ru/search?newwindow=1&dcr=0&source=hp&ei=CAixWtNN4sPpBKDuo9gL&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D0%B8%D0%BC%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B8%D0%B7%D0%BC%D0%B0&oq=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&gs_l=psy-ab.3.0.35i39k1j0i67k1j0l8.3071.4547.0.5996.8.7.0.0.0.0.71.385.6.7.0....0...1c.1.64.psy-ab..1.7.442.6..0i131i67k1j0i20i263k1j0i131k1.60.lm93bye8mq4#lrd=0x46b5498a41eb933b:0x80fa6271fb1d6e4a,1,,,'>google</a>, на <a href='https://www.tripadvisor.ru/Attraction_Review-g298484-d10379451-Reviews-Museum_of_Russian_Impressionism-Moscow_Central_Russia.html'>tripadvisor</a> или <a href='https://www.afisha.ru/msk/museum/20360/'>афише.</a></p>
 
-        <section className='block'>
-          <h2>Планшеты рядом с автомобилями</h2>
-          <p>Рядом с каждым автомобилем был установлен планшет, который содержал информацию о возможных цветах, характеристики, специальные предложения и маркетинговые фотографии автомобилей.</p>
-          <Swiper{...params}>
-            <div className='article_img_ipad' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/ipad_auto1.jpg)'}}></div>
-            <div className='article_img_ipad' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/ipad_auto2.jpg)'}}></div>
-            <div className='article_img_ipad' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/ipad_auto3.jpg)'}}></div>
-            <div className='article_img_ipad' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/ipad_auto4.jpg)'}}></div>
-          </Swiper>
-          <Swiper {...params}>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/suzuki_1.jpg)'}}></div>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/suzuki_2.jpg)'}}></div>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/suzuki_3.jpg)'}}></div>
-          </Swiper>
-          <p className='source'>За фотографии спасибо <a href='http://visuals.ru'>visuals.ru</a></p>
-        </section>
-        <section className='block'>
-          <h2>Планшеты рядом с мотоциклами</h2>
-          <p>Рядом с мотоциклами так же были установлены планшеты. В отличии от автомобильных, они совмещали в себе все модели сразу. Информация о каждой модели была подана на одном экране.</p>
-          <Swiper{...params}>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/suzuki_social1.jpg)'}}></div>
-          </Swiper>
-        </section>
-        <section className='block'>
-          <p>На стенде организовали фотосессию. Cделали фон с изображением городской трассы, поставили спорт-байк и фотографа с камерой. Сделанные фотографии загружались на тач-стол. Гости стенда отправляли их на электронную почту. Либо делали <a href='https://www.instagram.com/explore/tags/suzukimias2014/'>пост в социальные сети с хеш-тегом #SuzukiMIAS2014</a>, тем самым принимали участие в конкурсе.</p>
-          <Swiper{...params}>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/suzuki_social1.jpg)'}}></div>
-            <div className='article_img' style={{backgroundImage: 'url(http://postpeople.ru/media/suzuki/suzuki_social2.jpg)'}}></div>
-          </Swiper>
-          <p className='source'>За фотографии спасибо <a href='http://visuals.ru'>visuals.ru</a></p>
-        </section>
+            <h2>Задача</h2>
+            <p>Над проектом интерактивной зоны со стороны музея работала команда экспертов. Они совместно с <a href='http://visuals.ru'>агентством Visuals</a> придумали конструкции и идеи для инсталляций. Архитектором конструкций выступил <a href='http://osin.design/'>Михаил Осин</a>.</p>
+            <p>К началу проекта у музея уже был логотип и фирменный стиль. Мне оставалось только реализовать пользовательский интерфейс и донести идеи до гостей музея.</p>
+            <h2>Цвет и свет</h2>
+            <p>Содержание можно условно разделить на две части: теоретическую и практическую.</p>
+            <p>В теоретической, после краткой предыстории, посетителю предлогается построить цветовой круг по Йоханессу Иттену, разобраться чем отличается аддитивное смешение цветов от субтрактивного и как это используют художники.</p>
+            <p>В практической части гостю предлагается раскрасить бабочку на основе полученных знаний и выпустить её летать в голографическом экране. Так же в этой части можно посмотреть как меняется падающий цвет в зависивости от формы предмета, его цвета, угла и цвета источника.</p>
+            <p>Стоит отметить, что я не делал симуляции смешения краски и анимации бабочки. Я принимал участие только в создании идеи и давал комментарии к промежуточным версиям.</p>
+            <p>Работу инсталляции можно увидеть во многих инстаграм-постах посетителей музея. Я выбрал несколько:</p>
+          </div>
+        </article>
       </div>
-    </article>
-  </div>);
+    )
+  }
 }

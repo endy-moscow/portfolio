@@ -4,46 +4,67 @@ article {
   background: white;
   flex-direction: column;
   align-items: center;
-  padding: 8px 0 24px;
-  section.block {
-    margin-bottom: 36px;
+  padding: 24px 0;
+  *::selection{
+    background-color: black;
+    color: white;
   }
-  h1, h2, h3, h4, h5, h6 {
-    margin: 36px 100px 12px;
+  h2{
+    font-family: $font-main;
+    margin: 48px 100px 12px;
   }
   p {
+    @extend .font-normal;
     margin: 24px 100px;
   }
+  .comment{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
+
+  }
+  .source{
+    font-size: 12px;
+    text-align: right;
+    margin: 8px 0 0 0;
+    font-style: italic;
+  }
+  .quote{
+    margin: 8px 0 0 0;
+    padding: 24px 100px;
+    font-style: italic;
+    background-color: rgba(1,1,1,.05);
+  }
 }
-.article_img {
-  height: 500px;
+.article_video {
+  height: 400px;
   background-position: center;
   background-size: 100% auto;
 }
-article{
-  h2{
-    margin-top: 48px;
+@include media('<840px') {
+  .article_video {
+    height: 400px;
   }
 }
-.source{
-  font-size: 12px;
-  text-align: right;
-  margin: 8px 0;
+@include media('<500px') {
+  .article_video {
+    height: 300px;
+  }
 }
-.quote{
-  background: rgba(244,244,244,1);
-  padding: 24px 24px 36px 36px;
-  border-left: 4px solid rgba(24,24,24,1);
-  border-radius: 4px;
-  font-style: italic;
-}
+
 .grey{
   color: #ddd;
 }
 .fact{
-  width: 50%;
-  b{
-    font-size: 36px;
+  margin: 48px auto 64px;
+  width: 40%;
+  text-align: center;
+  span{
+    margin-bottom:0;
+    line-height: 1.2;
+    font-size: 48px
   }
 }
 
@@ -62,12 +83,13 @@ p > a{
   .content_container {
       width: 100%;
   }
+
   article{
-    h1, h2, h3, h4, h5, h6 {
-      margin: 24px 36px 12px;
+    h2 {
+      margin: 32px 36px 12px;
     }
     p {
-      margin: 12px 36px;
+      margin: 32px 36px;
     }
   }
 }

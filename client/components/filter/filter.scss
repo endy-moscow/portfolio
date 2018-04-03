@@ -2,11 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   a {
+    @extend .font-small;
     color: white;
-    font-size: 11px;
-    font-family: $font-main;
     margin: 12px;
     border-bottom: 1px solid transparent;
     transition: .3s;

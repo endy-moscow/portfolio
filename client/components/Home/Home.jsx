@@ -1,22 +1,21 @@
 import React from 'react'
 import Header from '../header/header.jsx'
+import Menu from '../menu/menu.jsx'
 import Gallery from '../gallery/gallery'
 import Filter from '../filter/filter'
-import Footer from '../footer/footer.jsx'
+import { Modal } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 export default class Home extends React.Component {
   render() {
     return (
       <div className='canvas'>
-        <Header
-          keyword='home'
-          imgUrl= 'http://postpeople.ru/media/me.gif'
-          title='Привет! Я Сергей Дузенко, digital-дизайнер из Открыт для предложений'
-          linkName='yo'
-          link='#'/>
-        <Filter />
+        <Menu/>
+        <Link to='/about'>
+          <Header bgImage='http://postpeople.ru/media/me.gif'
+            title='Я Сергей Дузенко, digital-дизайнер из Москвы'/>
+        </Link>
         <Gallery />
-        <Footer />
       </div>
     )
   }

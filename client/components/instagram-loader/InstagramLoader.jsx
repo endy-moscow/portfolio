@@ -79,7 +79,7 @@ export default class InstagramLoader extends Component {
             onFailure={onFailure}
           />
         ) : (
-          <div style={css.blank}>Instagram URL not provided</div>
+          <div style={css.blank}>Пост из Instagram не загрузился, пожалуйста, перезагрузите страницу</div>
         )}
       </div>
     )

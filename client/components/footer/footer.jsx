@@ -6,7 +6,6 @@ export default class Home extends React.Component {
     return (
       <div className='footer'>
         <Menu></Menu>
-        <h1>footer</h1>
       </div>
     )
   }
