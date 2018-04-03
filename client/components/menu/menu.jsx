@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+// import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 export default class Menu extends React.Component {
   constructor(props){

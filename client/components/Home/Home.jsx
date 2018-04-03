@@ -3,7 +3,6 @@ import Header from '../header/header.jsx'
 import Menu from '../menu/menu.jsx'
 import Gallery from '../gallery/gallery'
 import Filter from '../filter/filter'
-import { Modal } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 export default class Home extends React.Component {

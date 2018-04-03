@@ -8,26 +8,30 @@ import './style.scss'
 import store from './store/index'
 import Home from './components/Home/Home.jsx'
 import Page404 from './components/404Page/404.jsx'
-import Cola2015 from './components/ProjectPages/Cola2015'
+import Cola from './components/ProjectPages/cola'
 import SevenApps from './components/ProjectPages/7apps'
 import Suzuki from './components/ProjectPages/suzuki'
 import Geely from './components/ProjectPages/geely2015'
 import Transport from './components/ProjectPages/mt'
-import Tula14 from './components/ProjectPages/tula14'
+import Tula from './components/ProjectPages/tula'
 import RusImp from './components/ProjectPages/mri'
+import About from './components/About/About.jsx'
+import Visuals from './components/ProjectPages/visuals'
 
 ReactDOM.render(<Provider store={store}>
   <Router>
     <Switch>
 
       <Route exact path="/" component={Home}/>
-      <Route path="/cola" component={Cola2015}/>
+      <Route path="/about" component={About}/>
+      <Route path="/cola" component={Cola}/>
       <Route path="/7apps" component={SevenApps}/>
       <Route path="/suzuki" component={Suzuki}/>
       <Route path="/geely" component={Geely}/>
-      <Route path="/moscow-transport-na-urbanforum-2017" component={Transport}/>
-      <Route path="/tula14" component={Tula14}/>
+      <Route path="/moscow-transport-na-urbanforum" component={Transport}/>
+      <Route path="/tula" component={Tula}/>
       <Route path="/rusimp" component={RusImp}/>
+      <Route path="/visuals" component={Visuals}/>
 
       <Route component={Page404}/>
 

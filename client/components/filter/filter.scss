@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: center;
   a {
-    @extend .font-small;
     color: white;
     margin: 12px;
     border-bottom: 1px solid transparent;
